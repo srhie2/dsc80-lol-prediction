@@ -283,8 +283,6 @@ To evaluate fairness, I check whether the final model predicts match outcomes eq
 
 I use a **two-sided** permutation test because I have no prior reason to expect the model to favor a particular side; the question is simply whether *any* accuracy gap exists. Under the null hypothesis, the side labels can be reshuffled across the test rows without changing the model's behavior, so a permutation test is appropriate.
 
-<iframe src="assets/fairness_permutation.html" width="800" height="600" frameborder="0"></iframe>
-
 The model's accuracy was about 63.16% for blue-side teams and 71.13% for red-side teams, an observed gap of about 7.98 percentage points, with the model being less accurate for blue-side teams. The two-sided permutation test produced a p-value of approximately 0.107.
 
 Since the p-value of 0.107 is greater than the 0.05 significance level, I fail to reject the null hypothesis. There is no statistically significant evidence at the 0.05 level that the model is unfair with respect to side.
