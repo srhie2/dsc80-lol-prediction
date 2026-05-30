@@ -1,5 +1,3 @@
-# Early-Game Advantages and Match Outcomes in Professional League of Legends
-
 This project explores the relationship between early-game advantages and match outcomes in professional League of Legends (LoL) matches across several major professional leagues. In particular, the analysis focuses on how securing early objectives and building resource advantages within the first 10 minutes relate to a team’s probability of winning.
 
 Author: Sungsan Rhie
